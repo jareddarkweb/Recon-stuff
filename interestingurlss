@@ -33,6 +33,11 @@ test for idor in busiess  id's.
 
 how does api work is there bug in api.?
 
+
+
+
+https://turo.com/ca/en/security-challenge?action=ACCOUNT_PHONE_UPDATE&after2FA=%2Fca%2Fen%2Fpre-approval&errorCode=security_challenge_required&token=1ztCfHzXNoq7DFD67wBz4kYZmNdJcvkD0eDGSOFRUNWRlvv1avVWBblqwviBp2Xe5WOFZhVAARYc4HAB9a8pray0qLYnJijZceSelbzBuXIjlp66OJaw3Hywn9Y4v1q5R6IuWVzYjcM2nim8ToyZOH15f89tYZrYvp4LjXEJiudET7NIj8C6e2KlS94a93n7r9ZKDMG0zyRK1Ezms0zSElpxKJqt2OxVbNbCLQZi6nhHg7KS1YcjmN0RCz49mQr
+
 what kind of api archetecture is it using.
 
 does it use jwt token
