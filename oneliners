@@ -1,0 +1,21 @@
+🚀 Simple ffuf bash one-liner helper
+By 
+@naglinagli
+
+
+Here’s a useful bash function one-liner made by 
+@naglinagli
+ to sort out all your directory searching needs. Simply add this into your 
+
+~/.bashrc:
+ffufr() {
+  ffuf -c -w "/path/to/SecLists/Discovery/Web-Content/\" -u "$2/FUZZ" -recursion
+}
+
+Also make sure you have the latest https://github.com/danielmiessler/SecLists and the correct path in the function above.
+
+Now you can perform recursive directory searching (dirbusting) of your target domain easily like this:
+
+ffufr WORDLISTNAME.txt http://DOMAIN.com
+
+Use this with any of the wordlist that is in the ‘SecLists/Discovery/Web-Content/’ directory. Here’s an example using the ‘tomcat.txt’ wordlist:
